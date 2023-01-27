@@ -38,6 +38,11 @@
     width: 28%;
     color: #482683;
 }
+.upcomingeventsText{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;margin:50px ; font-size: 26px; width: 28%;
+}
 
 .studentext {
     font-family: 'Raleway';
