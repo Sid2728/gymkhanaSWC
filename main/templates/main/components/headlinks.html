@@ -4,7 +4,8 @@
 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
 <link rel="stylesheet" href="{% static 'main/styles/headlinks.css' %}">
-<div class="links" >
+<div class="links" style="margin-left: 120px;">
+    <div style="display:flex;border-left: black;border-width: 1px;box-shadow: gray;box-shadow: 1px 1px 5px;">
     <p style="font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;margin:50px ; font-size: 16px; width: 28%;"><a id="link1"  href="{% url 'home-page' %} " >Home</a></p>
@@ -14,6 +15,7 @@
     <p style="font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;margin:50px ; font-size: 16px; width: 28%;"><a id="link3"href="{% url 'minutes-page' %}">Minutes</a> </p>
+    </div>
 </div>
 
 <script>
